@@ -18,7 +18,6 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/api/v1/products")
 @CrossOrigin("*")
-@Scope()
 public class ProductController {
     private final ProductService productService;
     private final StoreService storeService;
